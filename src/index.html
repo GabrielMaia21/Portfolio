@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/index.css" />
+    <title>Seja Bem Vindo!</title>
+  </head>
+  <body>
+    <!-- Início DO HEADER-->
+    <header>
+      <nav class="fixed w-full bg-[#1B263B] h-20">
+        <div>
+          <ul class="flex gap-10 text-2xl justify-center mt-6">
+            <li class="transition-transform duration-350 hover:scale-105">
+              <a href="#apresentacao" class="font-bold text-white"
+                >Quem sou eu ?</a
+              >
+            </li>
+            <li class="transition-transform duration-350 hover:scale-105">
+              <a href="#habilidade" class="font-bold text-white">Habilidades</a>
+            </li>
+            <li class="transition-transform duration-350 hover:scale-105">
+              <a href="#projetos" class="font-bold text-white">Projetos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- FIM DO HEADER-->
+
+    <main>
+      <!-- INÍCIO APRESENTAÇÃO -->
+      <section id="apresentacao" class="flex justify-center items-center min-h-screen p-4">
+        <div class="flex flex-col mt-20 md:flex-row gap-8 max-w-4xl w-full">
+          <!-- Card de perfil -->
+          <div class="w-full md:w-80 bg-white rounded-xl shadow-2xl shadow-black p-6">
+            <img
+              src="/img/Gabriel.jpeg"
+              alt="foto de perfil"
+              class="mx-auto w-40 h-40 md:w-60 md:h-60 rounded-full"
+            />
+            <div class="text-sm mt-6 text-center">
+              <p><b>Desenvolvedor FullStack</b></p>
+              <p><b>Contatos:</b></p>
+              <p>gabriel.adriano2004@hotmail.com</p>
+              <div class="flex justify-center gap-4 mt-4">
+                <a href="https://www.linkedin.com/in/gabriel--maia/" target="_blank">
+                  <i class="fa-brands fa-linkedin text-2xl"></i>
+                </a>
+                <a href="https://github.com/GabrielMaia21" target="_blank">
+                  <i class="fa-brands fa-github text-2xl"></i>
+                </a>
+                <a href="https://w.app/4bd810" target="_blank">
+                  <i class="fa-brands fa-whatsapp text-2xl"></i>
+                </a>
+                <a href="https://www.instagram.com/maiag02/" target="_blank">
+                  <i class="fa-brands fa-instagram text-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Texto de apresentação -->
+          <div class="w-full md:w-auto flex-1 text-white">
+            <p class="text-2xl mb-6">Eu sou <b>Gabriel Maia!</b></p>
+            <p class="text-justify">
+              Tenho 21 anos, sou um programador iniciante apaixonado por tecnologia e
+              inovação, com um forte desejo de transformar ideias em soluções práticas
+              e eficientes. Embora eu não tenha experiência formal no mercado de
+              trabalho, tenho me dedicado ao aprendizado e ao desenvolvimento de
+              projetos pessoais que refletem minha curiosidade e determinação. Estou
+              pronto para enfrentar desafios, aprender continuamente e fazer a
+              diferença no mundo tech. Se você procura alguém com energia, paixão pela
+              tecnologia e um desejo inabalável de crescer, estou aqui para contribuir
+              e aprender com sua equipe.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- FIM APRESENTAÇÃO -->
+
+      <!-- INÍCIO SKILS-->
+      <section id="habilidade" class="py-16">
+        <!-- Título -->
+        <h1 class="text-center font-bold text-5xl md:text-7xl text-white mb-16">
+          Habilidades
+        </h1>
+      
+        <!-- Container das Habilidades -->
+        <div class="max-w-4xl mx-auto px-4">
+          <div class="bg-white shadow-lg rounded-lg p-6 md:p-8">
+            <h2 class="text-2xl font-bold text-purple-600 mb-6">Habilidades</h2>
+      
+            <!-- Grid de Habilidades e Barras de Progresso -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <!-- Lista de Habilidades -->
+              <div class="space-y-4 text-gray-700 text-lg">
+                <div class="flex items-center">
+                  <span class="inline-block w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                  <p>Desenvolvimento Web</p>
+                </div>
+                <div class="flex items-center">
+                  <span class="inline-block w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                  <p>Arquitetura de Software: MVC</p>
+                </div>
+                <div class="flex items-center">
+                  <span class="inline-block w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                  <p>Inovação e Escalabilidade</p>
+                </div>
+                <div class="flex items-center">
+                  <span class="inline-block w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                  <p>Metodologias Ágeis</p>
+                </div>
+              </div>
+      
+              <!-- Barras de Progresso -->
+              <div class="space-y-4">
+                <div>
+                  <p class="flex justify-between text-lg font-semibold text-gray-700">
+                    <span>HTML / CSS</span> <span>100%</span>
+                  </p>
+                  <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div class="bg-purple-600 h-2 rounded-full" style="width: 100%"></div>
+                  </div>
+                </div>
+      
+                <div>
+                  <p class="flex justify-between text-lg font-semibold text-gray-700">
+                    <span>JavaScript</span> <span>70%</span>
+                  </p>
+                  <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div class="bg-purple-600 h-2 rounded-full" style="width: 70%"></div>
+                  </div>
+                </div>
+      
+                <div>
+                  <p class="flex justify-between text-lg font-semibold text-gray-700">
+                    <span>MySQL</span> <span>70%</span>
+                  </p>
+                  <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div class="bg-purple-600 h-2 rounded-full" style="width: 70%"></div>
+                  </div>
+                </div>
+      
+                <div>
+                  <p class="flex justify-between text-lg font-semibold text-gray-700">
+                    <span>Java</span> <span>50%</span>
+                  </p>
+                  <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div class="bg-purple-600 h-2 rounded-full" style="width: 50%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FIM SKILS-->
+
+      <!-- INICIO PROJETOS -->
+      <section id="projetos" class="py-16">
+        <!-- Título -->
+        <h1 class="text-center font-bold text-5xl md:text-7xl text-white mb-16">
+          Projetos
+        </h1>
+      
+        <!-- Container dos Projetos -->
+        <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-xl shadow-2xl shadow-black p-6">
+              <p class="font-bold text-3xl md:text-4xl text-center mb-8">Cardápio</p>
+              <div class="flex justify-center">
+                <img
+                  src="/img/Projeto1.png"
+                  alt="Projeto Cardápio"
+                  class="w-full h-auto md:w-120 md:h-70 rounded-lg"
+                />
+              </div>
+              <div class="mt-6 flex justify-between gap-77">
+                <a
+                  href="https://github.com/GabrielMaia21/Cardapio"
+                  target="_blank"
+                  class="flex-1"
+                >
+                  <button
+                    class="cursor-pointer border-2 text-red-500 border-red-300 px-4 py-2 hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300"
+                  >
+                  GitHub
+                  </button>
+                </a>
+                <a
+                  href="https://cardapio-five-tawny.vercel.app/"
+                  target="_blank"
+                  class="flex-1"
+                >
+                  <button
+                    class="cursor-pointer border-2 text-green-500 border-green-300 px-4 py-2 hover:bg-green-500 hover:text-white hover:border-green-500 transition-colors duration-300"
+                  >
+                    Acessar
+                  </button>
+                </a>
+              </div>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="bg-white rounded-xl shadow-2xl shadow-black p-6">
+              <p class="font-bold text-3xl md:text-4xl text-center mb-8">
+                Landing-Page
+              </p>
+              <div class="flex justify-center">
+                <img
+                  src="/img/Projeto2.png"
+                  alt="Projeto Landing-Page"
+                  class="w-full h-auto md:w-120 md:h-70 rounded-lg"
+                />
+              </div>
+              <div class="mt-6 flex justify-between gap-77">
+                <a
+                  href="https://github.com/GabrielMaia21/Landing-Page-food"
+                  target="_blank"
+                  class="flex-1"
+                >
+                  <button
+                    class="cursor-pointer border-2 text-red-500 border-red-300 px-4 py-2 hover:bg-red-500 hover:text-white hover:border-red-500 transition-colors duration-300"
+                  >
+                  GitHub
+                  </button>
+                </a>
+                <a
+                  href="https://landing-page-food-eight.vercel.app/"
+                  target="_blank"
+                  class="flex-1"
+                >
+                  <button
+                    class="cursor-pointer border-2 text-green-500 border-green-300 px-4 py-2 hover:bg-green-500 hover:text-white hover:border-green-500 transition-colors duration-300"
+                  >
+                    Acessar
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--FIM PROJETOS-->
+
+      <!--INICIO FOOTER-->
+      <footer>
+        <span class="flex justify-center text-white mb-2">&copy 2025 Gabriel Maia</span>
+      </footer>
+      <!--FIM FOOTER-->
+    </main>
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
